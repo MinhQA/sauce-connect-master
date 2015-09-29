@@ -11,8 +11,8 @@ from sauceclient import SauceClient
 
 # based on http://saucelabs.com/examples/example.py
 
-USERNAME = os.environ.get('SAUCE_USERNAME')
-ACCESS_KEY = os.environ.get('SAUCE_ACCESS_KEY')
+USERNAME = "minhqa"
+ACCESS_KEY = "fbfbb9a7-f698-4210-b246-c2305fb9bcec"
 sauce = SauceClient(USERNAME, ACCESS_KEY)
 
 browsers = [{"platform": "Mac OS X 10.9",
